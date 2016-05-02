@@ -1,10 +1,10 @@
 # Site settings
-title: Black Dog Code
+title: 
 header-img: img/home-bg.png
 email: hilyttle@gmail.com
 copyright_name: hilaryml
 description: > # this means to ignore newlines until "baseurl:"
-  Learning the art of code.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  hilaryml
