@@ -27,7 +27,7 @@ And so it begins!
 
 Alrighty then. Responsive Layout is a technique used to help websites look great and keep them just as functional and efficient no matter what device you are using to look at them. (Whether it's Mom's Laptop, or the tablet you somehow haven't managed to break yet).
 
-There are a few key things to know about how a Responsive Layout is built:
+## There are a few key things to know about how a Responsive Layout is built:
 
 1. There are these neat little things called "CSS Media Queries" that check to see what the screen size of your device is, and then they adjust what the website looks like so that it fits your screen. 
 2. In order to make sure that all of those super-cool canoeing-at-sunset-pics and videos adjust to your screen size, developers set them to what's called "fluid widths". You can also set things like tables, audio, and any forms that need to be filled out to fluid widths too!
