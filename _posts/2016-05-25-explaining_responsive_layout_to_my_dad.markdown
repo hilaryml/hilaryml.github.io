@@ -14,7 +14,7 @@ With this in mind, the thought of explaining Responsive Layout to my Dad was a l
 
 My first venture into this assignment started with a very tentative question, 
 
-"Sooo.... Dad. About those canoeing forums... Are they pretty?" 
+"Sooo.... Dad. About those canoeing forums... When you look at them on your phone... Are they pretty?" 
 
 "Uh. No?" 
 
