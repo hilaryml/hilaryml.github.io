@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Boolean Basics"
-date:   2016-06-16 21:07:59 +0000
+date:   2016-06-16 17:07:59 -0400
 ---
 
 
@@ -14,9 +14,9 @@ You may be wondering, "How are booleans helpful?"
 Booleans can help to control when and if certain things happen in a program. This is called control flow. We use booleans when we write if, else, and ternary statements, loops, the list goes on...
 
 
-### There are three main boolean operators that we can use in ruby: !, &&, and ||.
+**There are three main boolean operators that we can use in ruby: !, &&, and ||.**
 
-*! is the single-bang operator. *It represents "not". In order for a statement containing ! to be truthy, the value after ! must be false. You can also place ! in front of a boolean in order to return the opposite value.
+! is the single-bang operator. It represents "not". In order for a statement containing ! to be truthy, the value after ! must be false. You can also place ! in front of a boolean in order to return the opposite value.
 
 Example:
 
@@ -28,7 +28,7 @@ Example:
 This can come in handy in a variety of situations, one of those being if you are uncertain of the truthiness of something.
 
 
-*&& is the double-ampersand.* It represents "and". In order for a statement containing && to be truthy, the values on either side of && must both be true.
+&& is the double-ampersand operator. It represents "and". In order for a statement containing && to be truthy, the values on either side of && must both be true.
 
 Example:
 
@@ -41,7 +41,7 @@ false && true
 ```
 
 
-*|| is the double-pipe.* It represents "or". In order for a statement containing || to be truthy, at least one of the values on either side of || must be true.
+|| is the double-pipe operator. It represents "or". In order for a statement containing || to be truthy, at least one of the values on either side of || must be true.
 
 Example:
 
@@ -83,7 +83,7 @@ else
 end
 ```
 
-### Booleans and Looping
+**Booleans and Looping**
 
 When creating a loop (whether with the loop keyword or with until or while) we can use boolean expressions to create conditions that will control how long the loop will run until it breaks.
 
