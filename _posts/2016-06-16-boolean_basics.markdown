@@ -13,7 +13,6 @@ You may be wondering, "How are booleans helpful?"
 
 Booleans can help to control when and if certain things happen in a program. This is called control flow. We use booleans when we write if, else, and ternary statements, loops, the list goes on...
 
-
 **There are three main boolean operators that we can use in ruby: !, &&, and ||.**
 
 ! is the single-bang operator. It represents "not". In order for a statement containing ! to be truthy, the value after ! must be false. You can also place ! in front of a boolean in order to return the opposite value.
@@ -39,7 +38,6 @@ true && true
 false && true
 => false
 ```
-
 
 || is the double-pipe operator. It represents "or". In order for a statement containing || to be truthy, at least one of the values on either side of || must be true.
 
