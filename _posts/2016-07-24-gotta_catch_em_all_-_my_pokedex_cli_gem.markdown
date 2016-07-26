@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gotta Catch 'Em All - My Pokedex CLI Gem"
-date:   2016-07-24 01:58:28 +0000
+date:   2016-07-23 21:58:28 -0400
 ---
 
 
@@ -27,7 +27,7 @@ I then chose which site I was going to scrape my info from. I settled on pokemon
 
 Not all of the Pokedex info was available for each Pokemon, so I had to account for that in my code. I decided to do that with a case statement. I then made a Pokemon class to make new Pokemon objects, assign them their attributes, and then store all of the Pokemon instances and their attributes.
 
-After that I went through all of my files and did a bunch of retouching, including reformatting code so that it looked cleaner, fixing a bunch of bugs, and just getting it to look and work efficiently. Unfortunately at this point I noticed that the program is pretty slow off the mark. It takes a solid 20 seconds to load the initial print out which sucks. After that it is speedy but I decided to look into ways of reducing the initial load time for the program. After changing a few things in my code I was at a loss. I decided to check out the speed of the actual webpages I was scraping and found they were a bit slow too, so perhaps that’s where the problem originates??? I'm still looking around online to see if there is anything else I can do, so if anyone has any ideas, feel free to check out my code on github and let me know!
+After that I went through all of my files and did a bunch of retouching, including reformatting code so that it looked cleaner, fixing a bunch of bugs, and just getting it to look and work efficiently. Unfortunately at this point I noticed that the program is pretty slow off the mark. It takes a solid 20 seconds to load the initial print out which sucks. After that it is speedy but I decided to look into ways of reducing the initial load time for the program. After changing a few things in my code I was at a loss. I decided to check out the speed of the actual webpages I was scraping and found they were a bit slow too, so perhaps that’s where the problem originates? Particularly because I am scraping so much data. I'm still looking around online to see if there is anything else I can do, so if anyone has any ideas, feel free to check out my code on github and let me know!
 
 In the meantime, good luck Pokemon Trainers! 
 
