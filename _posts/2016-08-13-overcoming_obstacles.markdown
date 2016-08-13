@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Overcoming Obstacles"
-date:   2016-08-13 17:23:24 +0000
+title:  "Programming Psych 101"
+date:   2016-08-13 13:23:24 -0400
 ---
 
 
@@ -9,7 +9,7 @@ Keeping an eye on the question bar at the side of our Learn page can tell you a 
 
 Firstly, that most of us don't like to ask questions. Secondly, that we don't often like to supply a lot of information about the problem that we are experiencing. Interestingly enough, these tendencies are actually related to our psychology.
 
-**Programming Psych 101**
+**Welcome to Programming Psych 101**
 
 Often times, when you are stuck at a programming barrier, you know that figuring it out yourself will be far more liberating and can help you to learn much more from the problem than if you had received help. But how do you know when you've crossed that invisible line between self-improvement and self-sabotage. Research has found that programmers are not only apprehensive to ask for help, but also prefer to seek help from an anonymous source rather than their coworkers or peers [1]. Not only that, but when a problem is reported, it is often lacking in sufficient detail [2]. 
 
