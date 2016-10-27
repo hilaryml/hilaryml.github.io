@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Creating a Custom Browser Start Page"
-date:   2016-10-27 04:21:52 +0000
+date:   2016-10-27 00:21:52 -0400
 ---
-
 
 After viewing several of Avi's video lectures, I became enamored with his browser's custom start page and wanted to figure out how to create one for myself. 
 
@@ -148,3 +147,5 @@ Awesome! Now to get all of this beautiful code to work its magic you need to go 
 Next, under the "Appearance" section, click the "Show Home button" option and enter "file:///Users/your-username/filepath-to-index.html" into the space provided.
 
 Now, your brand-spanking-new start page will appear whenever you open Chrome! 
+
+![](http://i.imgur.com/97Nb2vA.jpg)
