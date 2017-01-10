@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Breaking through mental barriers with Ajax"
-date:   2017-01-10 00:39:31 +0000
+title:  "Breaking through mental barriers with AJAX"
+date:   2017-01-09 19:39:31 -0500
 ---
 
 
-As with anything new you are trying to learn and apply, you tend to hit certain roadblocks that make you stumble (or in my case, really freak-you-the-heck-out). This was the case with me learning how to use Ajax with APIs. I've found the last couple of labs pretty challenging, but writing about the process afterwards has helped me to understand how everything works.
+As with anything new you are trying to learn and apply, you tend to hit certain roadblocks that make you stumble (or in my case, really freak-you-the-heck-out). This was the case with me learning how to use AJAX with APIs. I've found the last couple of labs pretty challenging, but writing about the process afterwards has helped me to understand how everything works.
 
 The JS APIs Lab required us to create a basic user interface that allowed the user to create Gists through the GitHub API and then allow the user to view all of their Gists below.
 
@@ -52,7 +52,7 @@ I got to work on a basic form in my html file as well as a section that would sh
 
 Next, I went back to my github_client.js file. The file names and parameters that they would accept were already set up for us. So I took a few minutes to try to understand the flow of data in order to figure out where to start first.
 
-I decided to start on the function that would make my first Ajax call to the GitHub API, the createGist() function. I set up my Gist requirements to mirror the format supplied by the website and filled them in with the parameters.
+I decided to start on the function that would make my first AJAX call to the GitHub API, the createGist() function. I set up my Gist requirements to mirror the format supplied by the website and filled them in with the parameters.
 
 ```
 var createGist = function(file_name, content, description, token){
@@ -77,13 +77,13 @@ I initially tried to pass the 'files' both of its parameters at once like so:
 
 But this didn't work, so I ended up just passing 'files' an empty hash and then passed it the other params after.
 
-Next, I set up my Ajax call to make a POST request to the GitHub API and appended '/gists' to the end of the base url. The lab told us that we needed to add an authorization token like so:
+Next, I set up my AJAX call to make a POST request to the GitHub API and appended '/gists' to the end of the base url. The lab told us that we needed to add an authorization token like so:
 
 ```
 headers: { Authorization: token }
 ```
 
-Once the post request was made, the myGists() function would be called with the response from the ajax call.
+Once the post request was made, the myGists() function would be called with the response from the AJAX call.
 
 ```
 $.ajax({
@@ -98,9 +98,9 @@ $.ajax({
 };
 ```
 
-The myGists() function was supposed to query the GitHub API with Ajax in order to return the Gists for that user, using the username and token supplied in the parameters.
+The myGists() function was supposed to query the GitHub API with AJAX in order to return the Gists for that user, using the username and token supplied in the parameters.
 
-After reading more of the supporting documentation, I realized that I needed to write an Ajax call that would make a GET request to /users/:username/gists like so:
+After reading more of the supporting documentation, I realized that I needed to write an AJAX call that would make a GET request to /users/:username/gists like so:
 
 ```
 $.ajax({
