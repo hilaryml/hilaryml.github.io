@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Incorporating JS into my Custom Browser Start Page"
+title:  "Incorporating JavaScript into my Custom Browser Start Page"
 date:   2017-01-16 17:32:16 -0500
 ---
 
 
 A while back I posted a blog about a personal project that I worked on - a custom browser start page.
 
-I've just finished the JS unit and decided to incorporate a couple things into the project.
+I've just finished the JavaScript unit and decided to incorporate a couple things into the project.
 
 For starters, I wanted to play around with the clock function as well as format the date. 
 
