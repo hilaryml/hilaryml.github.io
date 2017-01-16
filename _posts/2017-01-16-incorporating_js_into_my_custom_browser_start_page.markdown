@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Incorporating JS into my Custom Browser Start Page"
-date:   2017-01-16 22:32:15 +0000
+date:   2017-01-16 17:32:16 -0500
 ---
 
 
