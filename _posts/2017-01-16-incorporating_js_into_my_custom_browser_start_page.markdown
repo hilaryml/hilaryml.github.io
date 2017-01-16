@@ -5,11 +5,11 @@ date:   2017-01-16 17:32:16 -0500
 ---
 
 
-A while back I posted a blog about a personal project that I worked on - a custom browser start page.
+A while back I posted a blog about a personal project that I worked on - a custom browser start page. The project features a robotic welcome accompanied by a transparent search bar. It displays both a functioning clock as well as the current date.
 
 I've just finished the JavaScript unit and decided to incorporate a couple things into the project.
 
-For starters, I wanted to play around with the clock function as well as format the date. 
+For starters, I wanted to play around with the clock function, as well as format the date so that it's more visually appealing. 
 
 In order to accomplish the first task, I took out the original clock hack that I'd found somewhere in the depths of stack overflow, and started my own from scratch. It ended up being pretty simple. Similar to Ruby, JS has a Date object that you can play around with. 
 
