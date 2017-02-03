@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Adding jQuery to my Rails App"
-date:   2017-02-03 19:51:34 +0000
+date:   2017-02-03 14:51:35 -0500
 ---
 
 
