@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Verbatim - My Final Project"
-date:   2017-03-16 05:42:17 +0000
+date:   2017-03-16 01:42:18 -0400
 ---
 
 I’d had a couple ideas for my angularjs project bouncing around in my head, but wasn’t completely sure which one I wanted to implement. After spending a week or so playing around (freaking out) with my basic rails-angular set-up, going through the trial and error process, and making plenty of mistakes (but learning a whole bunch in the process), I decided to move forward with Verbatim.
