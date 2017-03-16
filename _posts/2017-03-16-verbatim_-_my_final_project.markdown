@@ -179,7 +179,7 @@ if (UserService.getCookie() === undefined) {
 
 After all that, I added in bootstrap and started making things pretty.
 
-![Verbatim](http://imgur.com/a/JGMbs)
+![Verbatim](http://i.imgur.com/xVMnKfM.png)
 
 I'm very happy with how the project turned out. I always learn the most from these assessment projects, and this one was no exception.
 
